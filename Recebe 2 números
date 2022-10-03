@@ -1,0 +1,18 @@
+public static void Main(string[] args)
+        {
+            double a, b, multi;
+            Console.WriteLine("Digite um número: ");
+            a = Double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite outro número: ");
+            b = Double.Parse(Console.ReadLine());
+            multi = Multi (a, b);
+            Console.WriteLine(multi);
+        }
+
+        public static double Multi (double a, double b)
+        {
+            double multi = a * b;
+            return multi;
+            
+            
+        }
